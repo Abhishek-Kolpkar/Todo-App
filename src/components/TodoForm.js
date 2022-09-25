@@ -48,6 +48,7 @@ function TodoForm(props) {
             name='text'
             className='todo-input'
             ref={inputRef}
+            autoComplete='off'
           />
           <button onClick={handleSubmit} className='todo-button'>
             Add todo
