@@ -51,7 +51,7 @@ function TodoForm(props) {
             autoComplete='off'
           />
           <button onClick={handleSubmit} className='todo-button'>
-            Add todo
+            Add Task
           </button>
         </>
       )}
